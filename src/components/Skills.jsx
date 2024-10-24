@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 
-const skills = ["React", "Node.js", "Express", "MongoDB", "Tailwind CSS", "Socket.io", "JWT", "HTML", "CSS", "JavaScript","Git","Git hub","GSAP","MYSql"];
+const skills = ["React", "Node.js", "Express", "MongoDB", "Tailwind CSS", "Socket.io", "JWT", "HTML", "CSS", "JavaScript","Git","Git hub","GSAP","MYSql","JAVA","C++","C"];
 
 const Skills = () => {
   return (
