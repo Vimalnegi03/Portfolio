@@ -27,6 +27,9 @@ const Header = () => {
               <a href="#projects">Projects</a>
             </li>
             <li className="hover:text-dracula-accent">
+              <a href="#mini-projects">Mini Projects</a> {/* Added link */}
+            </li>
+            <li className="hover:text-dracula-accent">
               <a href="#contact">Contact</a>
             </li>
           </ul>
@@ -81,6 +84,9 @@ const Header = () => {
             </li>
             <li className="hover:text-dracula-accent">
               <a href="#projects" onClick={toggleMobileMenu}>Projects</a>
+            </li>
+            <li className="hover:text-dracula-accent">
+              <a href="#mini-projects" onClick={toggleMobileMenu}>Mini Projects</a> {/* Added link */}
             </li>
             <li className="hover:text-dracula-accent">
               <a href="#contact" onClick={toggleMobileMenu}>Contact</a>

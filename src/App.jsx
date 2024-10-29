@@ -5,7 +5,7 @@ import Skills from './components/Skills';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
 import Header from './components/Header'; // New Header component
-
+import MiniProjects from './components/MiniProjects';
 function App() {
   return (
     <div className="App">
@@ -14,6 +14,7 @@ function App() {
       <About />
       <Skills />
       <Projects />
+      <MiniProjects/>
       <Contact />
     </div>
   );
